@@ -23,7 +23,7 @@ int subtract(int h1, int m1, int h2, int m2){
 int subtract(int m1, int m2){
   int m = m2-m1;
   if (m<0){
-    m=m+60
+    m=m+60;
   }
   return m;
 }
